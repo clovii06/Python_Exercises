@@ -17,11 +17,3 @@ function guessing_game():
     else:
         display correct
 """
-import random
-
-print("This is a number guessing game.")
-guessing_game()
-
-def guessing_game():
-    number = random.randint(1, 30)
-    guess = int(input("Guess the number between 1 and 30: "))
