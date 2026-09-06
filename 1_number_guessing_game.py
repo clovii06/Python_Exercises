@@ -17,3 +17,10 @@ function guessing_game():
     else:
         display correct
 """
+import random
+
+print("I'm thinking of a number between 1 and 30. Guess!")
+guessing_game()
+
+def guessing_game():
+    number = random.randint(1, 30)
