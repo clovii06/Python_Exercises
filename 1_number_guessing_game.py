@@ -19,8 +19,9 @@ function guessing_game():
 """
 import random
 
-print("I'm thinking of a number between 1 and 30. Guess!")
+print("This is a number guessing game.")
 guessing_game()
 
 def guessing_game():
     number = random.randint(1, 30)
+    guess = int(input("Guess the number between 1 and 30: "))
