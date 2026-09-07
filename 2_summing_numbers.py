@@ -9,3 +9,11 @@ function mysum(*numbers):
 
 display sum
 """
+
+def mysum(*numbers):
+    result = 0
+    for i in numbers:
+        result += numbers
+    return result
+
+print(mysum(1, 2, 3))
