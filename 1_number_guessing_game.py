@@ -30,3 +30,5 @@ def guessing_game():
             else:
                 print(f"You got it! The answer was {answer}.")
                 break
+
+guessing_game()
