@@ -3,8 +3,8 @@
 Pseudocode:
 function mysum(*numbers):
     result = 0
-    repeat numbers of times:
-        result = result + numbers
+    repeat i amount of times:
+        result = result + i
     return result
 
 display sum
@@ -16,4 +16,4 @@ def mysum(*numbers):
         result += i
     return result
 
-print(mysum(1, 2, 3))
+print(mysum(10, 20, 30))
