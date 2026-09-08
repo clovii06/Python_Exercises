@@ -23,12 +23,12 @@ def run_timing():
     number_of_runs = 0
 
     while True:
-        run_time = float(input("Enter run time: "))
+        run_time = input("Enter run time: ")
 
         if not run_time:
             break
 
-        total_run_time += run_time
+        total_run_time += float(run_time) # Convert to float
         number_of_runs += 1
 
     average_run_time = total_run_time / number_of_runs
