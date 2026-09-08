@@ -23,7 +23,7 @@ def run_timing():
     number_of_runs = 0
 
     while True:
-        run_time = input("Enter run time: ")
+        run_time = input("Enter 10KM run time: ")
 
         if not run_time:
             break
@@ -32,6 +32,6 @@ def run_timing():
         number_of_runs += 1
 
     average_run_time = total_run_time / number_of_runs
-    print(f"Average run time: {average_run_time}")
+    print(f"Average of {average_run_time}, over {number_of_runs} runs.")
 
 run_timing()
