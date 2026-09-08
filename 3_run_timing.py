@@ -7,10 +7,11 @@ function run_timing():
     number_of_runs = 0
 
     while True:
+        get run_time
+
         if not run_time:
             break
 
-        get run_time
         total_run_time += run_time
         number_of_runs += 1
 
