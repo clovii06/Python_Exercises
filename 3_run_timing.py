@@ -1,5 +1,4 @@
 # 3. Run Timing
-
 """
 Pseudocode:
 function run_timing():
@@ -20,6 +19,7 @@ function run_timing():
 """
 
 def run_timing():
+    """Calculate and print average running time"""
     total_run_time = 0
     number_of_runs = 0
 
