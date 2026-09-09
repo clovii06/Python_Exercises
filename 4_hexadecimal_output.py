@@ -15,9 +15,14 @@ def hex_output():
     hex_number = input("Enter a hexadecimal number: ")
 
     for power, digit in enumerate(reversed(hex_number)):
-        print(f"{digit} to the power of {power}")
+
         digit = int(digit, 16) # Convert each digit to integer with base of 16
-        print(digit)
+        power = int(power) # Convert power to int
+
+        decimal_number = digit * (16 ** power)
+        print(decimal_number)
+
+
 
 
 
