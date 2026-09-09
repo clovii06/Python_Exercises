@@ -14,7 +14,7 @@ function hex_output():
 def hex_output():
     hex_number = input("Enter a hexadecimal number: ")
 
-    for power, digit in enumerate(hex_number):
-        print(f"Power: {power} Digit: {digit}")
+    for power, digit in enumerate(reversed(hex_number)):
+        print(f"{digit} to the power of {power}")
 
 hex_output()
