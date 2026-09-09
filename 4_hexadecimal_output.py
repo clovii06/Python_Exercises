@@ -21,6 +21,7 @@ def hex_output():
 
     for power, digit in enumerate(reversed(hex_number)):
         decimal_number = int(digit, 16) * (16 ** int(power))
+
     print(decimal_number)
 
 hex_output()
