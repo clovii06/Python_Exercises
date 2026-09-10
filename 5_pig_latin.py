@@ -21,7 +21,7 @@ def pig_latin():
     if english_word[0] in 'aeiou':
         pig_latin_word = english_word + "way"
     else:
-        pig_latin_word = english_word[1:len(english_word)] + english_word[0] + "ay"
+        pig_latin_word = english_word[1:] + english_word[0] + "ay"
 
     print(pig_latin_word)
 
