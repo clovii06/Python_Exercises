@@ -15,9 +15,14 @@ else:
 display pig_latin_word
 
 """
+def pig_latin():
+    english_word = input("Word: ")
 
-english_word = input("Word: ")
-if english_word[0] in 'aeiou':
-    print("This is a vowel")
-else:
-    print(english_word[1:len(english_word)]) # If consonant, remove first letter
+    if english_word[0] in 'aeiou':
+        pig_latin_word = english_word + "way"
+    else:
+        pig_latin_word = english_word[1:len(english_word)] + english_word[0] + "ay"
+
+    print(pig_latin_word)
+
+pig_latin()
