@@ -4,7 +4,7 @@ Pseudocode:
 
 get english_word
 
-if first letter = vowel:
+if english_word[0] = vowel:
     add "way"
 
 else:
@@ -15,3 +15,9 @@ else:
 display pig_latin_word
 
 """
+
+english_word = input("Word: ")
+if english_word[0] in 'aeiou':
+    print("This is a vowel")
+else:
+    print(english_word[1:len(english_word)]) # If consonant, remove first letter
